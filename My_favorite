@@ -5,7 +5,12 @@
     <title>My favorite</title>
   </head>
   <body>
+
     <h1>Courage the Cowardly Dog
     <p>My favorite cartoon is Courage the Cowardly Dog.</p>
+
+    <h1>Picture</h1>
+    <img src="/CtCDpic.png" alt="description" height="48" width="100" longdesc="CtCDpic.png" />
+
   </body>
 </html>

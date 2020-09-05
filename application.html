@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student Application</title>
+  </head>
+  <body>
+
+
+  <h1>Student Application</h1>
+
+  <p>Welcome to the student application process for Fake University. Please enter the following information and click submit when you're done.</p>
+
+  <form method="post" action="http://pluto.cse.msstate.edu/~kdd195/DCSP_hw2/application.php">
+
+    <label for="first">First name:</label>
+    <input type="text" id="first" name="first" value=" "><br>
+
+    <label for="last">Last name:</label>
+    <input type="text" id="last" name="last" value=" "><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" name="email" value=" "><br><br>
+
+    <label for="degree">What degree are you applying for?:</label>
+    <select id="degree" name="degree">
+    <option value="Associate'">Associate's</option>
+    <option value="Bachelor's">Bachelor's</option>
+    <option value="Graduate's<s></s>">Graduate's</option>
+    </select>
+
+    <p>What type of student are you?</p>
+
+    <input type="radio" id="transfer" name="type" value="transfer">
+    <label for="transfer">Transfer</label><br>
+
+    <input type="radio" id="new" name="type" value="new">
+    <label for="new">New</label><br>
+
+    <p> Select any of the following that describes you:</p>
+
+    <input type="checkbox" id="veteran" name="veteran" value="Military veteran">
+    <label for="veteran"> I am a US military veteran.</label><br>
+
+    <input type="checkbox" id="active" name="active" value="Active military">
+    <label for="active"> I am currently serving in the US military.</label><br>
+
+    <input type="checkbox" id="disabled" name="disabled" value="Disabled">
+    <label for="disabled"> I am disabled.</label><br>
+
+    <input type="checkbox" id="felony" name="felon" value="Convicted of a felony">
+    <label for="felony"> I have been convicted of a felony.</label><br>
+
+    <p>Describe any achievements in your life:</p>
+    <textarea name="achieve" rows="10" cols="100">
+    </textarea><br><br>
+
+    <input type="submit" value="Submit Application">
+    <input type="reset" value ="Clear Application">
+  </form>
+
+  </body>
